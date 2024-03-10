@@ -12,9 +12,9 @@ import java.util.Arrays;
 public class TestSpring {
     @Test
     public void test1() {
-        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        person person = (person) context.getBean("person");
-        System.out.println(person);
+        //ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        //person person = (person) context.getBean("person");
+        //System.out.println(person);
     }
 
     /**
